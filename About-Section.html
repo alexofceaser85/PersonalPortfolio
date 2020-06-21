@@ -2,12 +2,16 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" class = "remove-scrollbar">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/SectionStyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/HeaderStyleSheet.css" />
 </head>
 
-<body>
+<body ng-app = "">
+    <header id="site-header" ng-include = "'Header.html'"></header>
+
     <section id="about-section" class="main-section">
         <article id="introduction-article" class="main-content-container">
             <header id="introduction-article-header" class="about-article-header">

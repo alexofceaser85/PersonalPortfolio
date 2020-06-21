@@ -1,17 +1,20 @@
 html ::-webkit-scrollbar {
   width: 0;
 }
-html body .main-content-container {
+html body .main-section {
+  overflow: auto;
+}
+html body .main-section .main-content-container {
   max-width: 800px;
   background-color: #F0F0F0;
   text-align: justify;
   padding: 1px 30px 5px 30px;
   margin: 60px auto 0 auto;
 }
-html body .main-content-container #introduction-header-text {
+html body .main-section .main-content-container #introduction-header-text {
   font-size: 2em;
 }
-html body .main-content-container #introduction-text {
+html body .main-section .main-content-container #introduction-text {
   font-size: 1.3em;
   line-height: 2em;
 }
