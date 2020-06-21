@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAEA3E79-4FC7-4D30-B08A-F813407B6931}"
+	ProjectSection(SolutionItems) = preProject
+		About-Section.html = About-Section.html
+		Contact-Section.html = Contact-Section.html
+		GetGithubData.js = GetGithubData.js
+		GetPortfolioData.js = GetPortfolioData.js
+		HeaderController.js = HeaderController.js
+		Index.html = Index.html
+		scss\IndexStyleSheet.scss = scss\IndexStyleSheet.scss
+		package.json = package.json
+		Projects-Section.html = Projects-Section.html
+		scss\SectionStyleSheet.scss = scss\SectionStyleSheet.scss
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59BB4592-00F3-4FAD-93D4-259172997780}
+	EndGlobalSection
+EndGlobal

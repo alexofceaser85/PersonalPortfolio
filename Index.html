@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Alex DeCesare's Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/IndexStyleSheet.css" />
+</head>
+<body>
+<header id="site-header">
+    <div id="header-container">
+        <div id="text-container">
+            <h1 id="name" class="header-text">Alex DeCesare</h1>
+            <h2 id="title" class="header-text">Web Developer</h2>
+        </div>
+
+        <nav id="header-navbar">
+            <a id="about" class="header-nav-button left-nav-button" href="#"><span>About Me</span></a>
+            <a id="projects" class="header-nav-button" href="#"><span>Projects</span></a>
+            <a id="contact" class="header-nav-button" href = "#"><span>Contact Me</span></a>
+            <a id="blog" class="header-nav-button right-nav-button"><span>My Blog</span></a>
+        </nav>
+    </div>
+</header>
+<section id = "content-container">
+    <div ng-include = "'About-Section.html'" ng-app = "include-sections" ng-controller="include-controller">
+
+    </div>
+</section>
+</body>
+</html>
+<script src="HeaderController.js"></script>

@@ -1,0 +1,26 @@
+﻿html {
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    body {
+
+        .main-content-container {
+            max-width: 800px;
+            background-color: #F0F0F0;
+            text-align: justify;
+            padding: 1px 30px 5px 30px;
+            margin: 60px auto 0 auto;
+
+            #introduction-header-text {
+                font-size: 2em;
+            }
+
+            #introduction-text {
+                font-size: 1.3em;
+                line-height: 2em;
+            }
+        }
+    }
+}
