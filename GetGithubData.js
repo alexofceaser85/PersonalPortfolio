@@ -8,9 +8,11 @@ request.onload = function () {
     let statusHTML = "";
 
     data.forEach(element => {
-        statusHTML += "<h1 class = 'github-project-name'>" + element.name + "</h1>";
-        statusHTML += "<p class = 'github-project-description'>" + element.description + "</div>";
-        statusHTML += "<p class = 'github-project-language'>" + element.language + "</div>";
+        statusHTML += "<section class = 'main-content-container'>";
+            statusHTML += "<h1 class = 'github-project-name'>" + element.name + "</h1>";
+            statusHTML += "<p class = 'github-project-description'>" + element.description + "</div>";
+            statusHTML += "<p class = 'github-project-language'>" + element.language + "</div>";
+        statusHTML += "</section>";
     });
 
     document.getElementById("project-section").innerHTML = statusHTML;
