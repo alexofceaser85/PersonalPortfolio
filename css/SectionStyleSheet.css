@@ -11,12 +11,17 @@ html body .main-section .main-content-container {
   padding: 1px 30px 5px 30px;
   margin: 60px auto 0 auto;
 }
-html body .main-section .main-content-container #introduction-header-text {
-  font-size: 2em;
-}
-html body .main-section .main-content-container #introduction-text {
-  font-size: 1.3em;
+html body .main-section .main-content-container .paragraph-text {
+  font-size: 1.1em;
   line-height: 2em;
+}
+html body .main-section .main-content-container .center-text {
+  text-align: center;
+}
+html body .main-section .main-content-container .article-block-styling {
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin: 20px 0 20px 0;
 }
 
 /*# sourceMappingURL=SectionStyleSheet.css.map */
