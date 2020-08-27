@@ -10,7 +10,7 @@ request.onload = function () {
     data.forEach(element => {
         statusHTML += "<section class = 'main-content-container'>";
             statusHTML += "<h1 class = 'github-project-name'>" + element.name + "</h1>";
-            statusHTML += "<p class = 'github-project-description'>" + element.description + "</div>";
+            statusHTML += "<p class = 'github-project-description article-block-styling'>" + element.description + "</div>";
             statusHTML += "<p class = 'github-project-language'>" + element.language + "</div>";
         statusHTML += "</section>";
     });
