@@ -28,6 +28,7 @@ html body .main-section .main-content-container .portfolio-button {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  text-decoration: none;
 }
 html body .main-section .main-content-container .center-text {
   text-align: center;
@@ -38,6 +39,10 @@ html body .main-section .main-content-container .article-block-styling {
   margin: 20px 0 20px 0;
   box-shadow: 0px 0px 5px rgba(100, 100, 100, 0.8) inset;
   border-radius: 5px;
+}
+html body .main-section .main-content-container .portfolio-button:hover {
+  background-color: #B74800;
+  color: white;
 }
 html body .main-section #social-buttons-container {
   display: grid;
