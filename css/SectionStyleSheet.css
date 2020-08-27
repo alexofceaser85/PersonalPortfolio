@@ -18,6 +18,17 @@ html body .main-section .main-content-container .paragraph-text {
   font-size: 1.1em;
   line-height: 2em;
 }
+html body .main-section .main-content-container .portfolio-button {
+  border: 1px solid #B74800;
+  color: #B74800;
+  display: block;
+  padding: 5px 0 5px 0;
+  max-width: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 html body .main-section .main-content-container .center-text {
   text-align: center;
 }
@@ -27,6 +38,11 @@ html body .main-section .main-content-container .article-block-styling {
   margin: 20px 0 20px 0;
   box-shadow: 0px 0px 5px rgba(100, 100, 100, 0.8) inset;
   border-radius: 5px;
+}
+html body .main-section #social-buttons-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
 }
 
 /*# sourceMappingURL=SectionStyleSheet.css.map */
