@@ -9,17 +9,16 @@
 
 html {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  overflow: hidden;
 }
 html body {
   display: grid;
-  grid-template-rows: var(--header-height) calc(100vh - var(--header-height));
-  background: url("NewYork1.jpg");
+  background: url("Mountains.jpg");
   background-size: cover;
-  background-position: 50% 75%;
   margin: 0;
 }
 html body #site-header {
+  position: fixed;
+  height: 180px;
   width: 100%;
 }
 html body #site-header #header-container {
