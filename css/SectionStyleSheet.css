@@ -4,15 +4,14 @@ html ::-webkit-scrollbar {
 html body .main-section {
   margin-top: 180px;
   overflow: auto;
-  background-color: rgba(30, 0, 0, 0.4);
 }
 html body .main-section .main-content-container {
   max-width: 800px;
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgba(230, 248, 255, 0.8);
   text-align: justify;
   padding: 1px 30px 5px 30px;
-  margin: 30px auto 30px auto;
-  box-shadow: 0px 0px 10px #B74800;
+  margin: 60px auto 60px auto;
+  box-shadow: 0 0px 10px 7px rgba(0, 0, 30, 0.8);
   border-radius: 10px;
 }
 html body .main-section .main-content-container .paragraph-text {
@@ -20,8 +19,8 @@ html body .main-section .main-content-container .paragraph-text {
   line-height: 2em;
 }
 html body .main-section .main-content-container .portfolio-button {
-  border: 1px solid #B74800;
-  color: #B74800;
+  border: 1px solid black;
+  color: black;
   display: block;
   padding: 5px 0 5px 0;
   max-width: 300px;
@@ -35,28 +34,31 @@ html body .main-section .main-content-container .center-text {
   text-align: center;
 }
 html body .main-section .main-content-container .article-block-styling {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 15px 30px 15px 30px;
   margin: 20px 0 20px 0;
   box-shadow: 0px 0px 5px rgba(100, 100, 100, 0.8) inset;
   border-radius: 5px;
 }
 html body .main-section .main-content-container .portfolio-button:hover {
-  background-color: #B74800;
-  color: white;
+  background-color: #151819;
+  color: #aafafa;
 }
-html body .main-section #social-buttons-container {
+html body .main-section #social-links {
+  padding-bottom: 30px;
+}
+html body .main-section #social-links #social-buttons-container {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 625px) {
   html body .main-section .main-content-container .article-block-styling {
     font-size: 14px;
   }
   html body #site-header #header-container #header-navbar {
-    width: 100% !important;
+    width: 95vw !important;
   }
 }
 
