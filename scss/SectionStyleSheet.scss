@@ -4,6 +4,8 @@
         width: 0;
     }
 
+    font-family: courier new, courier;
+
     body {
 
         .main-section {
@@ -16,7 +18,7 @@
                 text-align: justify;
                 padding: 1px 30px 5px 30px;
                 margin: 60px auto 60px auto;
-                box-shadow: 0 0px 10px 7px rgb(0 0 30 / 80%);
+                box-shadow: 0 0px 10px 7px rgba(100, 100, 100, .8);
                 border-radius: 10px;
 
                 .paragraph-text {
@@ -27,7 +29,6 @@
                 .portfolio-button {
                     border: 1px solid rgba(0, 0, 0, 1);
                     color: rgba(0, 0, 0, 1);
-                    display: block;
                     padding: 5px 0 5px 0;
                     max-width: 300px;
                     width: 100%;
@@ -35,6 +36,10 @@
                     margin-right: auto;
                     text-align: center;
                     text-decoration: none;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
                 }
 
                 .center-text {
@@ -50,17 +55,32 @@
                 }
 
                 .portfolio-button:hover {
-                    background-color: rgba(21, 24, 25, 1);
+                    background-color: rgba(0, 0, 0, .75);
                     color: rgba(170, 250, 250, 1);
+                    box-shadow: 0px 0px 10px 2px rgba(170, 250, 250, 1);
+                    font-size: 1.1em;
                 }
 
             }
+
+            #contact-header {
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+                h1 {
+                    max-width: 300px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                }
+            }
+
             #social-links {
                 padding-bottom: 30px;
 
                 #social-buttons-container {
                     display: grid;
-                    grid-template-columns: auto auto;
+                    grid-template-columns: 50% 50%;
                     grid-gap: 10px;
                 }
             }
