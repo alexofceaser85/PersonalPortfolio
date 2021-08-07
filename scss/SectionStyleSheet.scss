@@ -88,13 +88,38 @@
     }
 }
 
+@media screen and (max-width: 835px) {
+    html{
+        body {
+            .main-section {
+                .main-content-container {
+                    margin: 60px 7px 60px 7px;
+
+                    #contact-header {
+                        display: initial;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 625px) {
     html {
         body {
             .main-section {
+                margin-top: 120px;
+
                 .main-content-container {
                     .article-block-styling {
                         font-size: 14px;
+                    }
+                }
+
+                #social-links {
+                    #social-buttons-container {
+                        grid-template-columns: 100%;
                     }
                 }
             }
